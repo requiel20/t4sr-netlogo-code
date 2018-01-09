@@ -2,7 +2,7 @@
 
 This repository contains the code of a [NetLogo](https://ccl.northwestern.edu/netlogo/) simulation developed as part of my bachelor's thesis: "Distributed Justified Decision Making in Swarm Robotics: Logic, Simulation and Implementation". This project tackles the problem of reaching a common decision in an unsupervised community of robots relying only on local rules. In particular, the problem statement here considered requires them to decide whether a property φ holds or not for their world. The proposed approach heavily relies on epistemic logic and inter-agent communication, and offers a solu tion that consists in gathering local observations and spreading the agents’ beliefs through the swarm until a member can assess the reaching of a state of distributed knowledge.
 
-##GUI
+## GUI
 
 The Graphical User Interface of our application can be seen below:
 
@@ -54,6 +54,6 @@ To better explain its features, it has been divided here in 5 areas, numbered 1 
 
  The bottom left area (5) contains more advanced parameters used to increase the precision or speed performances of our model. These parameters are explained using the notes provided from the NetLogo GUI, and their specific use can also be seen in the code, where they appear as global variables of the same name.
  
- ##Execution
+ ## Execution
  
  NetLogo is needed to run this simulation. Just open the file in NetLogo and the GUI will show up.
